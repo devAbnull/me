@@ -11,18 +11,17 @@ class App extends Component {
   render() {
     // console.log(x);
     return (
-      <div className="myapp-body" style = {{background: `url('/bgimg1.jpg')`, backgroundSize: "cover"}}>
-      <div>
+      <div className="myapp-body" style = {{backgroundImage: `url('./bgimg1.jpg')`, backgroundSize: "cover"}}>
         <div className="heading">
           Abhijit Patel<br />
         </div>
         <div className="app-content">
           <div className="row">
-          <div className="col-1">
-            <a target='_blank' href="https://www.linkedin.com/in/abhijit-patel-9247a7111/"><img src="/linkedin-logo.png"/></a>
-            <a target='_blank' href="https://github.com/devAbnull"><img src="/github-logo.png"/></a>
-            <a target='_blank' href="https://twitter.com/devAbnull"><img src="/twitter-logo-button.png"/></a>
-            <a target='_blank' href="mailto:abhijitdev9@gmail.com"><img src="/close-envelope.png"/></a>
+          <div className="col-sm-10 col-md-1">
+            <a target='_blank' href="https://www.linkedin.com/in/abhijit-patel-9247a7111/"><img src="./linkedin-logo.png"/></a>
+            <a target='_blank' href="https://github.com/devAbnull"><img src="./github-logo.png"/></a>
+            <a target='_blank' href="https://twitter.com/devAbnull"><img src="./twitter-logo-button.png"/></a>
+            <a target='_blank' href="mailto:abhijitdev9@gmail.com"><img src="./close-envelope.png"/></a>
           </div>
           <div className="col-11">
             Hey there!!<br />
@@ -33,10 +32,9 @@ class App extends Component {
           </div>
           </div>
           <div className="text-align-right">
-            Resume: <a href="/Resume_Abhijit_Patel.pdf"><img src="/resume.png" /></a>
+            Resume: <a target='_blank' href="https://drive.google.com/file/d/0B_hduRIw-4G3ZzJxekh0SVpzUVE/view?usp=sharing"><img src="./resume.png" /></a>
           </div>
         </div>
-      </div>
       </div>
     );
   }
