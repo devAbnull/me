@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.myapp-body {
+  background-color: #eee;
+  height: -webkit-fill-available;
+  font-family: 'Playfair Display', serif;
+}
+
+img {
+  width: 30px;
+  height: 30px; 
+  border-radius: 7px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.app-content {
+  background-color: rgba(255,255,255,0.9);
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  width: 60%;
+  font-size: 18px;
+  padding: 3% 3% 2% 2%;
+}
+
+.heading {
+  position: absolute;
+  top: 5%;
+  left: 13%;
+  font-size: 50px;
+  margin-bottom: 2.5%;
+  /*color: #fff;*/
+}
+
+.text-align-right{
+  text-align: right;
+  margin-top: 2%;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #222;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: large;
+  color: white;
+}
+
+.content {
+  padding: 3%;
+  font-size: 47px;
+}
+
+.aboutme {
+  font-size: large;
+  padding-left: 0;
+}
+
+.cbox {
+  margin: 0;
+  width: 100%;
+  padding: 10px 10px 10px 30px;
+  /*height: 250px;*/
+}
+
+.mybg-blue {
+  background-color: aliceblue;
+}
+
+.mybg-ivory {
+  background-color: ivory;
+}
+
+h4 {
+  margin: 15px 15px 15px 0;
+}
+
+@media screen and (min-width : 720px)
+{
+.ghcards {
+  height: 154px !important;
+  width:45% !important;
+  margin-right: 1%;
+  float: left;
+  /*position: relative;*/
+}
+
+.blogcard {
+
+}
+
+}
+
+@media screen and (min-width : 1080px)
+{
+.ghcards {
+  height: 154px !important;
+  width:30% !important;
+  margin-right: 1%;
+  float: left;
+  /*position: relative;*/
+}
+
+.blogcard {
+
+}
+
+}
+
+
+.colorgray {
+  background-color: cyan;
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
